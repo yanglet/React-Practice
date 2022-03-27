@@ -1,3 +1,4 @@
+
 import { useNavigate, useParams } from "react-router-dom";
 import Word from "./Word";
 import useFetch from "../hooks/useFetch";
@@ -37,5 +38,6 @@ export default function Day() {
                 </button>
             </div>
         </>
+
     );
 }
